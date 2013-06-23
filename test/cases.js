@@ -44,3 +44,13 @@ cases.push([
   'should not be submittable',
   false
 ]);
+
+/**
+ * 5
+ */
+
+cases.push([
+  '<input type="checkbox" name="foo">',
+  'should not be submittable',
+  false
+]);

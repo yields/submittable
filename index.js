@@ -10,7 +10,9 @@ module.exports = function(el){
   return ! el.disabled
     && el.name
     && ! rtype.test(el.type)
-    && rname.test(el.nodeName);
+    && rname.test(el.nodeName)
+    && (!rcheck.test(el.type)
+    || el.checked);
 };
 
 /**
