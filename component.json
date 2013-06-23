@@ -1,0 +1,14 @@
+{
+  "name": "submittable",
+  "repo": "yields/submittable",
+  "description": "check if the given form element is submittable.",
+  "version": "0.0.1",
+  "keywords": ["submittable", "form"],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "development": {
+    "visionmedia/mocha": "*",
+    "component/domify": "*"
+  }
+}
