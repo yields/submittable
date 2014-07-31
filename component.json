@@ -2,7 +2,7 @@
   "name": "submittable",
   "repo": "yields/submittable",
   "description": "check if the given form element is submittable.",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "keywords": ["submittable", "form"],
   "license": "MIT",
   "main": "index.js",
